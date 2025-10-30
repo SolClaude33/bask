@@ -35,7 +35,7 @@ const Footer = () => {
               <Link to="/" className="inline-block">
                 <img 
                   src="/Layer_87.png" 
-                  alt="Entrave" 
+                  alt="Bask" 
                   className="h-6 md:mx-0 hover:opacity-80 transition-opacity cursor-pointer"
                 />
               </Link>
@@ -78,7 +78,7 @@ const Footer = () => {
           {/* Bottom */}
           <div className="pt-6 border-t border-border flex flex-col md:flex-row justify-center items-center gap-2 md:gap-4 text-center">
             <p className="text-xs text-muted-foreground">
-              © 2025 Entrave. All rights reserved.
+              © 2025 Bask. All rights reserved.
             </p>
             <span className="hidden md:inline text-muted-foreground text-xs">•</span>
             <div className="flex gap-4 text-xs text-muted-foreground">

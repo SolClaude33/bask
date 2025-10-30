@@ -68,7 +68,7 @@ const Header = ({ searchQuery = "", onSearchChange }: HeaderProps) => {
             <div className="flex items-center gap-3 shrink-0 cursor-pointer group" onClick={() => navigate("/")}>
               <img 
                 src="/Layer_87.png" 
-                alt="Entrave" 
+                alt="Bask" 
                 className="h-6 w-auto transition-transform duration-300 group-hover:scale-105"
               />
             </div>

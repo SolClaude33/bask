@@ -23,9 +23,9 @@ const Docs = () => {
         <div className="max-w-4xl mx-auto space-y-12">
           {/* Hero Section */}
           <div className="space-y-4">
-            <h1 className="text-4xl md:text-5xl font-bold">How Entrave Works</h1>
+            <h1 className="text-4xl md:text-5xl font-bold">How Bask Works</h1>
             <p className="text-lg text-muted-foreground">
-              Entrave is a next-generation prediction-market platform built on BNB Chain, powered by PancakeSwap Infinity's new hook architecture.
+              Bask is a next-generation prediction-market platform built on BNB Chain, powered by PancakeSwap Infinity's new hook architecture.
               It lets anyone trade real-world outcomes or create their own markets that earn revenue as they grow.
             </p>
             <div className="space-y-3 p-6 bg-primary/10 border border-primary/20 rounded-lg">
@@ -33,7 +33,7 @@ const Docs = () => {
                 Public Launch: Starting October 28, 2025
               </p>
               <p className="text-muted-foreground">
-                Entrave is launching through a progressive feature rollout to waitlist members:
+                Bask is launching through a progressive feature rollout to waitlist members:
               </p>
               <ul className="space-y-2 text-muted-foreground list-disc list-inside ml-4">
                 <li><strong>October 28:</strong> Public launch for all features except market creation (only available for whitelist users)</li>
@@ -66,9 +66,9 @@ const Docs = () => {
               </p>
               
               <div className="p-4 bg-primary/10 border-2 border-primary/30 rounded-lg">
-                <p className="font-semibold text-primary mb-2"><strong>$ENTRV</strong> Token Requirement (not a fee)</p>
+                <p className="font-semibold text-primary mb-2"><strong>$BASK</strong> Token Requirement (not a fee)</p>
                 <p className="text-muted-foreground">
-                  To create a market, your wallet will need to hold at least $300 worth of $ENTRV. Nothing will be charged, locked, or transferred—this will be a balance check to deter spam and align creators with the Entrave community. If your balance drops below the threshold, market creation will be paused until you top back up.
+                  To create a market, your wallet will need to hold at least $300 worth of $BASK. Nothing will be charged, locked, or transferred—this will be a balance check to deter spam and align creators with the Bask community. If your balance drops below the threshold, market creation will be paused until you top back up.
                 </p>
               </div>
 
@@ -83,7 +83,7 @@ const Docs = () => {
                 <li>If the goal is reached, the market becomes instantly tradable on-chain.</li>
               </ul>
               <p className="text-muted-foreground">
-                Entrave uses PancakeSwap Infinity's AMM engine with custom hooks that handle fee routing, settlement, and liquidity management.
+                Bask uses PancakeSwap Infinity's AMM engine with custom hooks that handle fee routing, settlement, and liquidity management.
                 This setup keeps liquidity deep and pricing automatic, without relying on an order book.
               </p>
             </Card>
@@ -96,11 +96,11 @@ const Docs = () => {
                 The pool price moves dynamically with supply and demand, reflecting live market odds in real time.
               </p>
               <p className="text-muted-foreground">
-                Entrave's market design ensures that 1 YES share + 1 NO share will always equal $1, 
+                Bask's market design ensures that 1 YES share + 1 NO share will always equal $1, 
                 guaranteeing balanced pricing and preventing arbitrage opportunities.
               </p>
               <p className="text-muted-foreground">
-                Because Entrave is built on PancakeSwap Infinity:
+                Because Bask is built on PancakeSwap Infinity:
               </p>
               <ul className="space-y-2 text-muted-foreground list-disc list-inside">
                 <li><strong>Instant:</strong> trades settle on-chain in one transaction.</li>
@@ -114,7 +114,7 @@ const Docs = () => {
             <Card className="p-6 space-y-4">
               <h3 className="text-2xl font-semibold">3. Fees and Incentives</h3>
               <p className="text-muted-foreground">
-                Every trade on Entrave carries on average a 1% transaction fee, automatically distributed to align everyone's interests.
+                Every trade on Bask carries on average a 1% transaction fee, automatically distributed to align everyone's interests.
               </p>
               
               <div className="overflow-x-auto">
@@ -138,7 +138,7 @@ const Docs = () => {
                       <td className="py-3 px-4">$5,000</td>
                     </tr>
                     <tr className="border-b border-border">
-                      <td className="py-3 px-4">Entrave (Platform)</td>
+                      <td className="py-3 px-4">Bask (Platform)</td>
                       <td className="py-3 px-4">30%</td>
                       <td className="py-3 px-4">$3,000</td>
                     </tr>
@@ -155,16 +155,16 @@ const Docs = () => {
               <ul className="space-y-2 text-muted-foreground list-disc list-inside">
                 <li>Creators earn from their ideas.</li>
                 <li>LPs earn yield with guaranteed principal.</li>
-                <li>Entrave maintains liquidity and infrastructure.</li>
+                <li>Bask maintains liquidity and infrastructure.</li>
               </ul>
 
               <div className="mt-4 p-4 bg-primary/5 border border-primary/20 rounded-lg">
                 <p className="font-semibold text-primary mb-2">Upcoming Token Benefits</p>
                 <p className="text-muted-foreground mb-2">
-                  $ENTRV token holders will enjoy additional advantages across the platform:
+                  $BASK token holders will enjoy additional advantages across the platform:
                 </p>
                 <ul className="space-y-2 text-muted-foreground list-disc list-inside ml-4">
-                  <li><strong>Trading Fee Rebates:</strong> Reduced trading fees for active $ENTRV holders</li>
+                  <li><strong>Trading Fee Rebates:</strong> Reduced trading fees for active $BASK holders</li>
                   <li><strong>Enhanced LP Returns:</strong> Extra fee earnings when providing liquidity to Launchpad markets</li>
                   <li><strong>Resolution Rewards:</strong> Earn yield by participating in market resolution through the decentralized resolution mechanism</li>
                 </ul>
@@ -175,13 +175,13 @@ const Docs = () => {
             <Card className="p-6 space-y-4">
               <h3 className="text-2xl font-semibold">4. Liquidity Guarantee</h3>
               <p className="text-muted-foreground">
-                Entrave keeps every market tradable through a protected liquidity model.
+                Bask keeps every market tradable through a protected liquidity model.
               </p>
               <ul className="space-y-2 text-muted-foreground list-disc list-inside">
-                <li>LP capital is protected through Entrave's AMM structure and backstop fund, which are designed to prevent permanent loss of principal.</li>
+                <li>LP capital is protected through Bask's AMM structure and backstop fund, which are designed to prevent permanent loss of principal.</li>
                 <li>LPs cannot withdraw their liquidity before the market resolves or if the market is cancelled. Soon, participants will be able to withdraw and add liquidity when an active market is live (coming soon feature).</li>
-                <li>During early stages, Entrave may co-provide or backstop liquidity to ensure smooth trading.</li>
-                <li>PancakeSwap Infinity manages swaps and settlements, while Entrave's hooks apply the prediction-market logic.</li>
+                <li>During early stages, Bask may co-provide or backstop liquidity to ensure smooth trading.</li>
+                <li>PancakeSwap Infinity manages swaps and settlements, while Bask's hooks apply the prediction-market logic.</li>
               </ul>
             </Card>
 
@@ -189,11 +189,11 @@ const Docs = () => {
             <Card className="p-6 space-y-4">
               <h3 className="text-2xl font-semibold">5. Resolution</h3>
               <p className="text-muted-foreground">
-                Resolution is centralized at launch but fully transparent. Entrave will publish all sources and on-chain proofs for each market outcome.
+                Resolution is centralized at launch but fully transparent. Bask will publish all sources and on-chain proofs for each market outcome.
               </p>
               <p className="text-muted-foreground">
-                <strong>Decentralized Resolution Mechanism (Coming Soon):</strong> The $ENTRV token will be at the heart of Entrave's upcoming decentralized resolution system. 
-                Token holders will be able to participate in market resolution and earn yield by staking $ENTRV to verify and validate market outcomes. 
+                <strong>Decentralized Resolution Mechanism (Coming Soon):</strong> The $BASK token will be at the heart of Bask's upcoming decentralized resolution system. 
+                Token holders will be able to participate in market resolution and earn yield by staking $BASK to verify and validate market outcomes. 
                 This creates a transparent, community-driven resolution process with aligned incentives for accurate reporting.
               </p>
             </Card>
@@ -298,12 +298,12 @@ const Docs = () => {
           </div>
 
 
-          {/* ENTRV Token */}
+          {/* BASK Token */}
           <div className="space-y-6">
-            <h2 className="text-3xl font-bold">$ENTRV Token</h2>
+            <h2 className="text-3xl font-bold">$BASK Token</h2>
             <Card className="p-6 space-y-4">
               <p className="text-muted-foreground">
-                The $ENTRV token is the utility token powering the Entrave ecosystem, designed to align incentives across all participants.
+                The $BASK token is the utility token powering the Bask ecosystem, designed to align incentives across all participants.
               </p>
               
               <div className="space-y-3">
@@ -312,14 +312,14 @@ const Docs = () => {
                   <li className="flex items-start gap-2">
                     <span className="mt-1.5 w-1.5 h-1.5 rounded-full bg-muted-foreground flex-shrink-0"></span>
                     <span className="flex-1">
-                      <strong>Market Creation Access:</strong> Hold $300 worth of $ENTRV to create markets
+                      <strong>Market Creation Access:</strong> Hold $300 worth of $BASK to create markets
                       <span className="ml-2 inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium bg-primary/10 text-primary border border-primary/20">Coming Soon</span>
                     </span>
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="mt-1.5 w-1.5 h-1.5 rounded-full bg-muted-foreground flex-shrink-0"></span>
                     <span className="flex-1">
-                      <strong>Fee Rebates:</strong> Receive discounted trading fees based on your $ENTRV holdings
+                      <strong>Fee Rebates:</strong> Receive discounted trading fees based on your $BASK holdings
                       <span className="ml-2 inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium bg-primary/10 text-primary border border-primary/20">Coming Soon</span>
                     </span>
                   </li>
@@ -333,7 +333,7 @@ const Docs = () => {
                   <li className="flex items-start gap-2">
                     <span className="mt-1.5 w-1.5 h-1.5 rounded-full bg-muted-foreground flex-shrink-0"></span>
                     <span className="flex-1">
-                      <strong>Resolution Participation:</strong> Stake $ENTRV to participate in the decentralized resolution mechanism and earn yield
+                      <strong>Resolution Participation:</strong> Stake $BASK to participate in the decentralized resolution mechanism and earn yield
                       <span className="ml-2 inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium bg-primary/10 text-primary border border-primary/20">Coming Soon</span>
                     </span>
                   </li>
@@ -343,7 +343,7 @@ const Docs = () => {
               <div className="space-y-3">
                 <h4 className="text-xl font-semibold">Tokenomics</h4>
                 <p className="text-muted-foreground">
-                  $ENTRV has a carefully designed token distribution to ensure long-term sustainability and alignment:
+                  $BASK has a carefully designed token distribution to ensure long-term sustainability and alignment:
                 </p>
                 <div className="overflow-x-auto">
                   <table className="w-full border-collapse">
@@ -379,24 +379,24 @@ const Docs = () => {
                   </table>
                 </div>
                 <p className="text-sm text-muted-foreground mt-2">
-                  The majority of tokens (75%) are dedicated to liquidity, ensuring sustainable trading conditions and deep market depth for the $ENTRV token.
+                  The majority of tokens (75%) are dedicated to liquidity, ensuring sustainable trading conditions and deep market depth for the $BASK token.
                 </p>
               </div>
             </Card>
           </div>
 
-          {/* Why Entrave Exists */}
+          {/* Why Bask Exists */}
           <div className="space-y-6">
-            <h2 className="text-3xl font-bold">Why Entrave Exists</h2>
+            <h2 className="text-3xl font-bold">Why Bask Exists</h2>
             <Card className="p-6 space-y-4">
               <p className="text-muted-foreground">
                 Prediction markets failed because they lacked liquidity and creator incentives.
               </p>
               <p className="text-lg font-semibold">
-                Entrave fixes both.
+                Bask fixes both.
               </p>
               <p className="text-muted-foreground">
-                Built on PancakeSwap Infinity, Entrave blends DeFi efficiency with social virality:
+                Built on PancakeSwap Infinity, Bask blends DeFi efficiency with social virality:
               </p>
               <ul className="space-y-2 text-muted-foreground list-disc list-inside">
                 <li>Anyone can create a market that earns real fees.</li>
@@ -404,7 +404,7 @@ const Docs = () => {
                 <li>Every participant shares the upside.</li>
               </ul>
               <p className="text-lg font-semibold text-primary mt-4">
-                Entrave turns every idea into a tradable market.
+                Bask turns every idea into a tradable market.
               </p>
             </Card>
           </div>
