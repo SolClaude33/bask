@@ -44,15 +44,17 @@
         '--card-foreground': '0 0% 95%',
         '--popover': '0 0% 18%',
         '--popover-foreground': '0 0% 95%',
-        '--primary': '259 83% 64%',
-        '--primary-foreground': '0 0% 100%',
+        /* Primario → Amarillo */
+        '--primary': '48 95% 53%',
+        '--primary-foreground': '0 0% 10%',
         /* Secondary → Amarillo */
         '--secondary': '48 95% 53%',
         '--secondary-foreground': '0 0% 10%',
         '--muted': '0 0% 18%',
         '--muted-foreground': '0 0% 65%',
-        '--accent': '273 92% 68%',
-        '--accent-foreground': '0 0% 100%',
+        /* Acento → Amarillo (ligeramente distinto) */
+        '--accent': '48 95% 60%',
+        '--accent-foreground': '0 0% 10%',
         '--success': '163 72% 47%',
         '--success-foreground': '0 0% 100%',
         '--destructive': '0 84% 60%',
@@ -67,6 +69,34 @@
       Object.keys(vars).forEach(function(k){ root.style.setProperty(k, vars[k]); });
       // If the app toggles `.dark`, keep our palette
       root.classList.add('dark');
+    })();
+  </script>
+  <script>
+    // Replace legacy brand/token text in rendered DOM (for prebuilt bundles)
+    (function () {
+      function replaceTextContent(root) {
+        var walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, null);
+        var node;
+        while ((node = walker.nextNode())) {
+          var t = node.nodeValue;
+          if (!t) continue;
+          var nt = t
+            .replaceAll('$ENTRV', '$BASK')
+            .replaceAll('Entrave', 'Bask');
+          if (nt !== t) node.nodeValue = nt;
+        }
+      }
+      function run() { replaceTextContent(document.body || document); }
+      if (document.readyState === 'complete' || document.readyState === 'interactive') {
+        run();
+      } else {
+        window.addEventListener('DOMContentLoaded', run);
+      }
+      // Observe mutations to catch late-rendered nodes
+      var obs = new MutationObserver(function (muts) {
+        muts.forEach(function (m) { if (m.addedNodes && m.addedNodes.length) run(); });
+      });
+      obs.observe(document.documentElement, { subtree: true, childList: true });
     })();
   </script>
 </head>
