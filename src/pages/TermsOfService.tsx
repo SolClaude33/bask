@@ -25,7 +25,7 @@ const TermsOfService = () => {
           <section>
             <h3 className="text-2xl font-semibold mt-8 mb-4">1. What Bask Is</h3>
             <p>
-              Bask is a creator-driven prediction market protocol that allows users to trade on outcomes of real-world events, create markets through a Launchpad, provide liquidity, and earn fees or points. Bask operates as a decentralized information market, not a gambling or betting service. Users interact directly with smart contracts deployed on public blockchains such as Ethereum and BNB.
+              Bask is a creator-driven prediction market protocol that allows users to trade on outcomes of real-world events, create markets through a Launchpad, provide liquidity, and earn fees or points. Bask operates as a decentralized information market, not a gambling or betting service. Users interact directly with smart contracts deployed on public blockchains such as Ethereum and Solana.
             </p>
 
             <h3 className="text-2xl font-semibold mt-8 mb-4">2. Non-Custodial Nature & Wallet Security</h3>

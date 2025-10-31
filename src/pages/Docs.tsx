@@ -25,7 +25,7 @@ const Docs = () => {
           <div className="space-y-4">
             <h1 className="text-4xl md:text-5xl font-bold">How Bask Works</h1>
             <p className="text-lg text-muted-foreground">
-              Bask is a next-generation prediction-market platform built on BNB Chain, powered by PancakeSwap Infinity's new hook architecture.
+              Bask is a next-generation prediction-market platform built on Solana, powered by Raydium's new hook architecture.
               It lets anyone trade real-world outcomes or create their own markets that earn revenue as they grow.
             </p>
             <div className="space-y-3 p-6 bg-primary/10 border border-primary/20 rounded-lg">
@@ -62,7 +62,7 @@ const Docs = () => {
                 Anyone can create a market such as:
               </p>
               <p className="text-lg font-medium italic">
-                "Will BNB reach $4,000 before 2027?"
+                "Will SOL reach $500 before 2027?"
               </p>
               
               <div className="p-4 bg-primary/10 border-2 border-primary/30 rounded-lg">
@@ -83,7 +83,7 @@ const Docs = () => {
                 <li>If the goal is reached, the market becomes instantly tradable on-chain.</li>
               </ul>
               <p className="text-muted-foreground">
-                Bask uses PancakeSwap Infinity's AMM engine with custom hooks that handle fee routing, settlement, and liquidity management.
+                Bask uses Raydium's AMM engine with custom hooks that handle fee routing, settlement, and liquidity management.
                 This setup keeps liquidity deep and pricing automatic, without relying on an order book.
               </p>
             </Card>
@@ -100,12 +100,12 @@ const Docs = () => {
                 guaranteeing balanced pricing and preventing arbitrage opportunities.
               </p>
               <p className="text-muted-foreground">
-                Because Bask is built on PancakeSwap Infinity:
+                Because Bask is built on Raydium:
               </p>
               <ul className="space-y-2 text-muted-foreground list-disc list-inside">
                 <li><strong>Instant:</strong> trades settle on-chain in one transaction.</li>
                 <li><strong>Efficient:</strong> the AMM and hook logic manage liquidity and fees automatically.</li>
-                <li><strong>Advanced Features:</strong> PancakeSwap Infinity hooks enable limit orders and direct liquidity routing for enhanced trading flexibility.</li>
+                <li><strong>Advanced Features:</strong> Raydium hooks enable limit orders and direct liquidity routing for enhanced trading flexibility.</li>
                 <li><strong>Composable:</strong> future versions will integrate oracles and data feeds directly into the hook system.</li>
               </ul>
             </Card>
@@ -181,7 +181,7 @@ const Docs = () => {
                 <li>LP capital is protected through Bask's AMM structure and backstop fund, which are designed to prevent permanent loss of principal.</li>
                 <li>LPs cannot withdraw their liquidity before the market resolves or if the market is cancelled. Soon, participants will be able to withdraw and add liquidity when an active market is live (coming soon feature).</li>
                 <li>During early stages, Bask may co-provide or backstop liquidity to ensure smooth trading.</li>
-                <li>PancakeSwap Infinity manages swaps and settlements, while Bask's hooks apply the prediction-market logic.</li>
+                <li>Raydium manages swaps and settlements, while Bask's hooks apply the prediction-market logic.</li>
               </ul>
             </Card>
 
@@ -396,7 +396,7 @@ const Docs = () => {
                 Bask fixes both.
               </p>
               <p className="text-muted-foreground">
-                Built on PancakeSwap Infinity, Bask blends DeFi efficiency with social virality:
+                Built on Raydium, Bask blends DeFi efficiency with social virality:
               </p>
               <ul className="space-y-2 text-muted-foreground list-disc list-inside">
                 <li>Anyone can create a market that earns real fees.</li>
