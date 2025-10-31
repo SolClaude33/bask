@@ -80,7 +80,10 @@
           if (!t) continue;
           var nt = t
             .replaceAll('$ENTRV', '$BASK')
-            .replaceAll('Entrave', 'Bask');
+            .replaceAll('Entrave', 'Bask')
+            .replaceAll('BNB Chain', 'Solana')
+            .replaceAll('PancakeSwap Infinity', 'Raydium')
+            .replaceAll('pancakeswap infinity', 'Raydium');
           if (nt !== t) node.nodeValue = nt;
         }
       }
