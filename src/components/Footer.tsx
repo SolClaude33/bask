@@ -2,7 +2,6 @@ import { useState } from "react";
 import { Mail } from "lucide-react";
 import { Link } from "react-router-dom";
 import xLogo from "@/assets/x-logo.png";
-import discordLogo from "@/assets/discord-logo.svg";
 import WaitlistDialog from "./WaitlistDialog";
 import HowItWorksDialog from "./HowItWorksDialog";
 
@@ -29,7 +28,7 @@ const Footer = () => {
       <footer className="border-t border-border bg-card/30">
         <div className="container mx-auto px-4 py-8">
           {/* Main Content */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
             {/* Brand */}
             <div className="space-y-3">
               <Link to="/" className="inline-block">
@@ -44,25 +43,13 @@ const Footer = () => {
               </p>
             </div>
 
-            {/* Navigation Links */}
-            <div>
-              <h3 className="font-semibold mb-3 text-sm">Community</h3>
-              <ul className="space-y-2 text-sm text-muted-foreground">
-                <li>
-                  <Link to="https://t.me/ENTRAVE_bsc" className="hover:text-primary transition-colors">
-                    Telegram
-                  </Link>
-                </li>
-              </ul>
-            </div>
-
             {/* Contact */}
             <div>
               <h3 className="font-semibold mb-3 text-sm">Connect</h3>
               <div className="space-y-2">
                 <div className="flex gap-3">
                   <a 
-                    href="https://x.com/TryEntrave" 
+                    href="https://x.com/baskbnb" 
                     target="_blank"
                     rel="noopener noreferrer"
                     className="w-9 h-9 rounded-lg bg-secondary hover:bg-primary transition-all hover:scale-105 flex items-center justify-center group"
