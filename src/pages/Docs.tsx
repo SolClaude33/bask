@@ -62,7 +62,7 @@ const Docs = () => {
                 Anyone can create a market such as:
               </p>
               <p className="text-lg font-medium italic">
-                "Will SOL reach $500 before 2027?"
+                "Will BNB reach $4,000 before 2027?"
               </p>
               
               <div className="p-4 bg-primary/10 border-2 border-primary/30 rounded-lg">
